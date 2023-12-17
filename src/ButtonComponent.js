@@ -1,13 +1,13 @@
 import React from 'react'
 import { FiChevronRight, FiChevronLeft } from 'react-icons/fi';
 
-const ButtonComponent = ({onclickPrev, onCLickNext}) => {
+const ButtonComponent = ({onClickPrev, onClickNext}) => {
     return(
         <div>
-            <button className='prev' onClick={onclickPrev}>
+            <button className='prev' onClick={onClickPrev}>
                 <FiChevronLeft />
             </button> 
-            <button className='next' onClick={onCLickNext}>
+            <button className='next' onClick={onClickNext}>
                 <FiChevronRight />
             </button>
         </div>
